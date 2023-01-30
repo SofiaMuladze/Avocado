@@ -1,0 +1,29 @@
+nav {
+  z-index: 1;
+  background-color: #fefefe;
+  border-bottom: solid 1px #000;
+  margin-bottom: 20px;
+  position: fixed;
+  width: 100%;
+  padding: 15px 0;
+  box-shadow: 0px 1px 24px 8px rgba(20, 20, 20, 0.08);
+}
+nav .nav {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: auto;
+}
+nav .nav .nav-contenent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+nav .nav .nav-contenent a {
+  text-decoration: none;
+  color: #000;
+  display: flex;
+}
+nav .nav .nav-contenent a:hover {
+  color: #80B918;
+}/*# sourceMappingURL=Navbar.css.map */

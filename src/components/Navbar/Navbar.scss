@@ -1,0 +1,30 @@
+nav{
+    z-index: 1;
+    background-color: #fefefe;
+    border-bottom: solid 1px #000;
+    margin-bottom: 20px;
+    position: fixed;
+    width: 100%;
+    padding: 15px 0;
+    box-shadow: 0px 1px 24px 8px rgba(20, 20, 20, 0.08);
+    .nav {
+        display: flex;
+        justify-content: space-between;
+        width: 80%;
+        margin: auto;
+            .nav-contenent {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                
+                a {
+                    text-decoration: none;
+                    color: #000;
+                    display: flex;
+                }
+                a:hover{
+                    color: #80B918;
+                }
+            }
+    }
+}

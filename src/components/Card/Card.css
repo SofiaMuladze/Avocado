@@ -1,0 +1,134 @@
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.card {
+  background-color: #fff;
+  max-width: 240px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  border: solid 2px #000;
+  margin: 20px;
+}
+.card .card-image {
+  margin: 20px;
+  width: 200px;
+  height: 170px;
+}
+.card .card-image img {
+  border-radius: 5px;
+  border: solid 2px #000;
+  object-fit: cover;
+  width: 200px;
+  height: 170px;
+}
+.card .card-title {
+  margin-bottom: 30px;
+}
+.card .card-title h3 {
+  color: #000;
+  margin: 0 20px;
+  height: 60px;
+}
+.card .card-info {
+  display: flex;
+  margin: 20px;
+  justify-content: space-between;
+}
+.card .card-info .card-info-1 {
+  display: flex;
+}
+.card .card-info .info {
+  display: flex;
+  margin-right: 10px;
+  align-items: center;
+}
+.card .card-info .info img {
+  width: 15px;
+}
+.card .card-info .info h6 {
+  margin: 0 5px;
+}
+.card .card-info .clock {
+  background-color: #80B918;
+  padding: 5px;
+  border-radius: 5px;
+  border: solid 1px #000;
+}
+.card .cards {
+  display: flex;
+  flex: 0 1 25%;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px 0;
+}
+.card .cards-group {
+  padding: 100px;
+}
+.card .cards-group-category {
+  padding: 20px 100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+@media (max-width: 768px) {
+  .card .cards-group-category {
+    padding: 50px;
+  }
+}
+.card .category-title {
+  padding: 0;
+  padding-top: 100px;
+  text-align: center;
+  color: #80B918;
+}
+
+.cards {
+  display: flex;
+  flex: 0 1 25%;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.cards-group {
+  padding: 100px;
+}
+
+.cards-group-category {
+  padding: 20px 100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .cards-group-category {
+    padding: 50px;
+  }
+}
+.category-title {
+  padding: 0;
+  padding-top: 100px;
+  text-align: center;
+  color: #80B918;
+}
+
+.card:hover h3 {
+  color: #80B918;
+}
+
+@media (max-width: 992px) {
+  .card {
+    flex-wrap: wrap;
+    zoom: 0.8;
+  }
+}
+@media (max-width: 768px) {
+  .card {
+    flex-wrap: wrap;
+  }
+}/*# sourceMappingURL=Card.css.map */
