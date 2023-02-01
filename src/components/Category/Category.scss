@@ -7,13 +7,14 @@
     a {
         text-decoration: none;
         color: #000;
+        background-color: transparent;
         button {
             background-color: #fff;
             font-size: 15px;
             cursor: pointer;
         }
         
-        button:focus {
+        button:focus{
             background-color: #80B918;
             box-shadow: 0px 0px 1px rgb(20 20 20 / 10%), 5px 5px 20px 1px rgb(20 20 20 / 20%);
         }

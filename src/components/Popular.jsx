@@ -46,10 +46,10 @@ function Popular() {
 
     return <div> 
         
+        <div className="category-title">
+            <h1> Popular Recipes</h1>
+        </div>
         <div className="cards-group-category" >
-            <div className="category-title">
-                <h1> Popular Recipes</h1>
-            </div>
             {popular.map((recipe) =>
                 <div className="cards" key={recipe.id}>
                     <Link to={"/recipe/" + recipe.id}>

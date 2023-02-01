@@ -47,7 +47,7 @@ function TypeOfMeal() {
     }
 
     return <div className="cards-group-category">
-        {typeofmeal.map((item) => {
+        {typeofmeal.map((item) => 
             <div className="cards" key={item.id}>
                 <Link to={"/recipe/" + item.id}>
                     <Card
@@ -56,7 +56,7 @@ function TypeOfMeal() {
                     />
                 </Link>
             </div>
-        })}
+        )}
     </div>
 }
 

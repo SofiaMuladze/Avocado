@@ -5,12 +5,10 @@ import axios from 'axios';
 import Loader from '../components/Loader/Loader';
 import Card from '../components/Card/Card';
 
-
 function Searched() {
     const [searchedRecipes, setSearchdResipes] = useState([]);
     const [loader, setloader] = useState(false);
     const [errorMessage, setErrorMessage] = useState("");
-
 
     let params = useParams();
     useEffect(() => {
@@ -24,12 +22,14 @@ function Searched() {
             .then(res => {
                 setSearchdResipes(res.data.results);
             })
+            
             .catch(error => {
                 console.log(error)
                 setErrorMessage(error.message)
             })
             .finally(() => {
                 setloader(false);
+                
             });
     }
 

@@ -24,7 +24,6 @@
 }
 .about-section .text-card {
   max-width: 500px;
-  max-height: 300px;
   text-align: center;
   padding: 30px;
   border: 1px solid #000;
@@ -34,6 +33,7 @@
 .about-section .text-card h4 {
   font-size: 25px;
   margin-bottom: 20px;
+  color: #80B918;
 }
 .about-section .text-card p {
   font-size: 15px;

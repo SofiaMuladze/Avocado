@@ -15,7 +15,7 @@ function AboutUs() {
         </div>
         <div className='about-section'>
             <div className='text-card'>
-                <h4>1. Good for heart health</h4>
+                <h4>Good for heart health</h4>
                 <p>Vegetarians may be up to one-thirdTrusted Source less likely to die or be hospitalized for heart disease. Of course, food choices matter — vegetarian or not.
                     If you want the heart-protective benefits of the diet, be sure to choose: high-fiber whole grains vegetables and fruits other low-glycemic foods The idea is to consume soluble fiber and choose foods that’ll help keep blood sugar levels stable. 
                     By doing so, you may reduce your cholesterol and overall risk of heart attack.
@@ -26,7 +26,7 @@ function AboutUs() {
         <div className='about-section'>
             <img src={About3} alt="" />
             <div className='text-card'>
-                <h4>2. Reduces cancer risk</h4>
+                <h4>Reduces cancer risk</h4>
                 <p>While the benefit isn’t significant, vegetarians may have a slight edge with lowering cancer risk.
                 One studyTrusted Source found that, in low-risk populations, a vegetarian diet reduced the risk for cancer in general. Additionally, the study found that certain types of animal-free diets reduced the risk for specific types of cancer:
                 a vegan diet was found to reduce risk for cancer more than other diets
@@ -37,7 +37,7 @@ function AboutUs() {
         </div>
         <div className='about-section'>
             <div className='text-card'>
-                <h4>3. Prevents type 2 diabetes</h4>
+                <h4>Prevents type 2 diabetes</h4>
                 <p>Following a healthy vegetarian diet may help preventTrusted Source and treatTrusted Source type 2 diabetes and associated complications. It goes back to choosing low-glycemic foods that keep blood sugar levels steady, such as whole grains, legumes, and nuts.
                 In one study, vegetarians had half the risk of developing type 2 diabetes compared with nonvegetarians.
                 </p>
@@ -48,7 +48,7 @@ function AboutUs() {
         <div className='about-section'>
             <img className='rotate-img' src={About2} alt="" />
             <div className='text-card'>
-                <h4>4. Lowers blood pressure</h4>
+                <h4>Lowers blood pressure</h4>
                 <p>Long ago, researchers started noticing that people who don’t eat meat may have lower blood pressure. Studies have shown that vegetarians, particularly vegans, have lower blood pressures than their meat-eating counterparts.
                 Plant foods tend to be lower in fat, sodium, and cholesterol, which can have a positive effect on your blood pressure. Fruits and vegetables also have good concentrations of potassium, which helps to lower blood pressure.
                 </p>
@@ -56,7 +56,7 @@ function AboutUs() {
         </div>
         <div className='about-section'>
             <div className='text-card'>
-                <h4>5. Decreases asthma symptoms</h4>
+                <h4>Decreases asthma symptoms</h4>
                 <p>An older Swedish study suggests that a vegetarian diet, specifically vegan, may decrease symptoms of asthma. Twenty-two out of 24 participants who ate a vegan diet for a year saw improvements, including less dependency on medications.
                 It’s thought that certain animal foods may produce an allergy or inflammation response, so removing these foods from the diet can reduce these responses.
                 </p>
@@ -67,7 +67,7 @@ function AboutUs() {
         <div className='about-section'>
             <img className='rotate-img' src={About4} alt="" />
             <div className='text-card'>
-                <h4>6. Promotes bone health</h4>
+                <h4>Promotes bone health</h4>
                 <p>Osteoporosis rates are lower in countries where people eat mostly vegetarian diets. Animal products may actually force calcium out of the body, creating bone loss and osteoporosis.
                 In one study, people who followed a lacto-ovo vegetarian diet for 20 years or more had only 18 percentTrusted Source less bone mineral by the time they reached age 80. Omnivores, or meat eaters, in this study had 35 percent less bone mineral at the same age.
                 </p>
