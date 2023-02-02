@@ -27,11 +27,16 @@ a{
 
     .card-title {
         margin-bottom: 30px;
+        display: -webkit-box;
+        overflow: hidden;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        
         h3{
-            
             color: #000;
             margin: 0 20px;
-            height: 60px;
+            height: 70px;
+            
         }
         
     }
@@ -148,6 +153,9 @@ color: #80B918;
         zoom: 0.8;
 
     }
+    .cards-group-category {
+        padding: 20px 50px;
+        }
 }
 
 @media (max-width: 768px) {

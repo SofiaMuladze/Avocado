@@ -1,4 +1,5 @@
 import React from "react"
+
 import './Card.css';
 import People from '../../images/people.svg';
 import Like from '../../images/like.svg';

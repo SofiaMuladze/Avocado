@@ -1,21 +1,19 @@
 import React from "react"
-import './Navbar.css';
-import Heart from '../../images/heart.svg';
-import Logo from '../../images/logo.svg';
-import SearchIcon from '../../images/search.svg';
 import { Link } from "react-router-dom";
-import { BrowserRouter } from "react-router-dom";
+
+import './Navbar.css';
+import Logo from '../../images/logo.svg';
 
 export default function Navbar() {
     return (
         
         <nav>
             <div className="nav">
-                <Link to={"/"}>
+                <Link to={"/Avocado/"}>
                     <img src={Logo} alt="" />
                 </Link>
                 <div className="nav-contenent">
-                    <Link to={"/about/"}>
+                    <Link to={"/aboutUs/"}>
                         <h3>About</h3>
                     </Link>
                 </div>

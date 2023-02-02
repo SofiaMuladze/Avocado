@@ -19,7 +19,7 @@ function TypeOfMeal() {
     const getCategory = async (name) => {
         setloader(true);
         const data = await axios
-            .get(`https://api.spoonacular.com/recipes/complexSearch?apiKey=${process.env.REACT_APP_API_KEY}&tags=vegetarian&type=${name}`)
+            .get(`https://api.spoonacular.com/recipes/complexSearch?apiKey=${process.env.REACT_APP_API_KEY_1}&tags=vegetarian&type=${name}&number=12`)
             .then(res => {
                 setCategory(res.data.results);
             })
