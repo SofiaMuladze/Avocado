@@ -10,11 +10,11 @@ import Popular from '../components/Popular';
 function Pages() {
   return (
     <Routes>
-      <Route path="/Avocado/" element={<Popular />} />
+      <Route path="/Avocado" element={<Popular />} />
       <Route path="/typeofmeal/:type" element={<TypeOfMeal />} />
       <Route path="/searched/:search" element={<Searched />} /> 
       <Route path="/recipe/:name" element={<Recipe />} /> 
-      <Route path="/aboutUs/" element={<AboutUs />} /> 
+      <Route path="/aboutUs" element={<AboutUs />} /> 
     </Routes>
   )
 }

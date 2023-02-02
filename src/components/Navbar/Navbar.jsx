@@ -9,11 +9,11 @@ export default function Navbar() {
         
         <nav>
             <div className="nav">
-                <Link to={"/Avocado/"}>
+                <Link to={"/Avocado"}>
                     <img src={Logo} alt="" />
                 </Link>
                 <div className="nav-contenent">
-                    <Link to={"/aboutUs/"}>
+                    <Link to={"/aboutUs"}>
                         <h3>About</h3>
                     </Link>
                 </div>
