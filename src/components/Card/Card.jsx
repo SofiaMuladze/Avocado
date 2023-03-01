@@ -1,6 +1,6 @@
 import React from "react"
 
-import './Card.css';
+import './Card.scss';
 import People from '../../images/people.svg';
 import Like from '../../images/like.svg';
 import Clock from '../../images/clock.svg';

@@ -3,7 +3,7 @@ import { useParams } from "react-router-dom";
 
 import Card from "../../components/Card/Card";
 
-import './Recipe.css'
+import './Recipe.scss'
 
 function Recipe() {
 

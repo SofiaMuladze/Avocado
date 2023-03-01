@@ -1,6 +1,6 @@
 import React from 'react'
 
-import './AboutUs.css';
+import './AboutUs.scss';
 import About2 from '../../images/about/about2.svg'
 import About3 from '../../images/about/about3.svg'
 import About4 from '../../images/about/about4.svg'
