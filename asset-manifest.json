@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Avocado/static/css/main.207ab76f.css",
+    "main.css": "/Avocado/static/css/main.7d084ed4.css",
     "main.js": "/Avocado/static/js/main.ad96858c.js",
     "static/media/logo.svg": "/Avocado/static/media/logo.d4d18bada2d59ce505b94fde1570f321.svg",
     "static/media/about4.svg": "/Avocado/static/media/about4.321b79fa426b3f3e34301577558c0e52.svg",
@@ -11,11 +11,11 @@
     "static/media/people.svg": "/Avocado/static/media/people.d3e9380a37ccff74bb77039a042a04e8.svg",
     "static/media/searchBlack.svg": "/Avocado/static/media/searchBlack.5c86200ccdf9f810b7f40eb46544ab8e.svg",
     "static/media/clock.svg": "/Avocado/static/media/clock.ca18990dc416007fdb9c6ab10c2214ea.svg",
-    "main.207ab76f.css.map": "/Avocado/static/css/main.207ab76f.css.map",
+    "main.7d084ed4.css.map": "/Avocado/static/css/main.7d084ed4.css.map",
     "main.ad96858c.js.map": "/Avocado/static/js/main.ad96858c.js.map"
   },
   "entrypoints": [
-    "static/css/main.207ab76f.css",
+    "static/css/main.7d084ed4.css",
     "static/js/main.ad96858c.js"
   ]
 }
